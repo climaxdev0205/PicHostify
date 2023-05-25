@@ -1,0 +1,14 @@
+# Editor configuration, see http://editorconfig.org
+root = true # Indicates that this is the top-level EditorConfig configuration file
+
+[*] # Applies to all files
+charset = utf-8 # Sets the file character set to utf-8
+indent_style = space # Indentation style (tab | space)
+indent_size = 2 # Indentation size
+end_of_line = lf # Line ending type (lf | cr | crlf)
+trim_trailing_whitespace = true # Removes any trailing whitespace at the end of lines
+insert_final_newline = true # Always inserts a new line at the end of the file
+
+[*.md] # Applies only to md files
+max_line_length = off
+trim_trailing_whitespace = false
